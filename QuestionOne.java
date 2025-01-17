@@ -3,7 +3,7 @@
 public class QuestionOne {
     public static void main(String[] args) {
         int[] prices = new int[]{7,1,5,3,6,4};
-        System.out.println(maxProfit2(prices));
+        System.out.println("max-profit: " + maxProfit2(prices));
         
     }
 
@@ -29,7 +29,7 @@ public class QuestionOne {
             return 0;
         }
 
-        int minPrice = 10000;
+        int minPrice = prices[0];
         int maxProfit = 0;
 
         for(int price:prices){
