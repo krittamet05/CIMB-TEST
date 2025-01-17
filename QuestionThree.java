@@ -1,7 +1,9 @@
 public class QuestionThree {
     public static void main(String[] args) {
-        int target = 5;
-        System.out.println("Count:" + climb(target));
+        System.out.println("Count:" + climb(2));
+        System.out.println("Count:" + climb(3));
+        System.out.println("Count:" + climb(5));
+        System.out.println("Count:" + climb(10));
     }
 
     public static int climb(int target){

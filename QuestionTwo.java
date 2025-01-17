@@ -1,7 +1,8 @@
 public class QuestionTwo {
     public static void main(String[] args) {
-        System.out.println(compareRevision("0.1", "1.1"));
-        System.out.println(compareRevision("1.01", "1.001"));
+        System.out.println("result: " +compareRevision("1.01", "1.001"));
+        System.out.println("result: " +compareRevision("1.0", "1.0.0"));
+        System.out.println("result: " + compareRevision("0.1", "1.1"));
     }
 
     public static int compareRevision(String version1, String version2){

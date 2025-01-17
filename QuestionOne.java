@@ -2,8 +2,8 @@
 
 public class QuestionOne {
     public static void main(String[] args) {
-        int[] prices = new int[]{7,1,5,3,6,4};
-        System.out.println("max-profit: " + maxProfit2(prices));
+        System.out.println("max-profit: " + maxProfit2(new int[]{7,1,5,3,6,4}));
+        System.out.println("max-profit: " + maxProfit2(new int[]{7,6,4,3,1}));
         
     }
 
